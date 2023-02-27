@@ -35,7 +35,7 @@ print(dtf.head())
 
 sisul_placeid = []
 
-api_key = 'AIzaSyBk0aszBg5zJAt_Ajkr9ZmFpPgyWWC8Dck'
+api_key = '0000'
 # results = dtf.apply(placeid_search, axis = 1, args = (1, api_key))
 for index, row in dtf.iterrows():
     lon = row['시설경도']
